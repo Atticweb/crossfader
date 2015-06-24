@@ -1,6 +1,6 @@
 # Crossfader
 
-This plugin is made with jQuery and Froogaloop. Instead of just using seekTo function from Froogaloop, this has a fadeTo function.
+This plugin is made with jQuery and Froogaloop. The fadeTo function is almost the same as the seekTo function from Froogaloop. It uses a second instance of the video to fade to another time in the video.
 
 It's currently in beta, so dont expect too much.
 
