@@ -78,3 +78,4 @@ I'm still testing for browser support, if you have tested the code in another br
 
  - IE 10 >  
  - Chrome Version 43.0.2357.130 m >
+ - Firefox 30.0 >
