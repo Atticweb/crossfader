@@ -23,6 +23,16 @@ _! when using this plugin, you can't use the standard vimeo controls anymore._
 <script type="text/javascript" src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
 ```
 
+## HTML
+
+U can just use a Vimeo embed code like this:
+
+```html
+<iframe id="video_player" src="https://player.vimeo.com/video/2696386?api=1&player_id=video_player" width="630" height="354" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+```
+
+Don't forget to add 'api=1' and 'player_id={id from iframe}' to the embed url.
+
 ## Init function
 
 This function builds the frame arround the video to create the fadeTo function.
