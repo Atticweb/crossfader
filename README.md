@@ -4,6 +4,17 @@ This plugin is made with jQuery and Froogaloop. The fadeTo function is almost th
 
 It's currently in beta, so dont expect too much.
 
+## Dependencies
+
+#### jQuery:
+```html
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+```
+#### Froogaloop:
+```html
+<script type="text/javascript" src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
+```
+
 ## Init function
 
 This function builds the frame arround the video to create the fadeTo function.
