@@ -6,11 +6,11 @@ It's currently in beta, so dont expect too much.
 
 ## Dependencies
 
-#### jQuery:
+##### jQuery:
 ```html
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 ```
-#### Froogaloop:
+##### Froogaloop:
 ```html
 <script type="text/javascript" src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
 ```
@@ -27,7 +27,7 @@ $('iframe#video_player').crossfader();
 
 This function looks a lot like the seekTo function from Froogaloop.
 
-#### Parameters:
+##### Parameters:
 
 _seconds_ = the seconds the video needs to skip to (number)  
 _duration_ = the duration of the fade in ms (number)
