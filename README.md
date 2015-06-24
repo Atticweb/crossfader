@@ -4,6 +4,10 @@ This plugin is made with jQuery and Froogaloop. The fadeTo function is almost th
 
 It's currently in beta, so dont expect too much.
 
+## Demo
+
+[http://codepen.io/atticweb/pen/QbOaNo](http://codepen.io/atticweb/pen/QbOaNo)
+
 ## Dependencies
 
 ##### jQuery:
