@@ -1,10 +1,10 @@
-# crossfader
+# Crossfader
 
 This plugin is made with jQuery and Froogaloop. Instead of just using seekTo function from Froogaloop, this has a fadeTo function.
 
-It's currently in beta, so dont expect too much
+It's currently in beta, so dont expect too much.
 
-## init function
+## Init function
 
 This function builds the frame arround the video to create the fadeTo function.
 
@@ -16,7 +16,7 @@ $('iframe#video_player').crossfader();
 
 This function looks a lot like the seekTo function from Froogaloop.
 
-#### parameters:
+#### Parameters:
 
 _seconds_ = the seconds the video needs to skip to (number)  
 _duration_ = the duration of the fade in ms (number)
