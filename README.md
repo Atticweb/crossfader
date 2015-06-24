@@ -47,5 +47,5 @@ $('iframe#video_player').crossfader('elm').api('play');
 
 I'm still testing for browser support, if you have tested the code in another browser please let me know!
 
-IE 10 >
-Chrome Version 43.0.2357.130 m >
+ - IE 10 >  
+ - Chrome Version 43.0.2357.130 m >
