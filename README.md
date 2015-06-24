@@ -23,7 +23,7 @@ This function builds the frame arround the video to create the fadeTo function.
 $('iframe#video_player').crossfader();
 ```
 
-## fadeTo function
+## FadeTo function
 
 This function looks a lot like the seekTo function from Froogaloop.
 
@@ -36,7 +36,7 @@ _duration_ = the duration of the fade in ms (number)
 $('iframe#video_player').crossfader('fadeTo', {'seconds' : 20, 'duration' : 500});
 ```
 
-## onPlayProgess event
+## OnPlayProgess event
 
 You can access the onPlayProgess event like so:
 
