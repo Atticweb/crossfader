@@ -1,11 +1,12 @@
 .cf_wrapper iframe{
   width: 100%;
   height: 100%;
-  margin-top: -70px;
 }
 
 .cf_wrapper{
 	position: relative;
+	width: 630px;
+	height: 354px;
 }
 
 .cf_wrapper iframe.video_2{
