@@ -6,7 +6,7 @@ It's currently in beta, so dont expect too much.
 
 ## Demo
 
-<a href="http://codepen.io/atticweb/pen/QbOaNo" target="_blank">http://codepen.io/atticweb/pen/QbOaNo</a>
+[http://codepen.io/atticweb/pen/QbOaNo](http://codepen.io/atticweb/pen/QbOaNo)
 
 ## Dependencies
 
