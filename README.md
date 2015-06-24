@@ -1,8 +1,12 @@
 # Crossfader
 
+I made this plugin because i needed it for a project i'm currently working on.
+
 This plugin is made with jQuery and Froogaloop. The fadeTo function is almost the same as the seekTo function from Froogaloop. It uses a second instance of the video to fade to another time in the video.
 
 It's currently in beta, so dont expect too much.
+
+_! when using this plugin, you can't use the standard vimeo controls anymore._
 
 ## Demo
 
