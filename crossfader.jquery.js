@@ -12,10 +12,16 @@
     }
     var cf_methods = {
         init : function(options) {
+            var promises = [];
             $.extend( cf_options, options );
             $(this).each(function(){
-                build_frame($(this)[0]);
+                var def = new $.Deferred();
+                build_frame($(this)[0]).done(function(){
+                    def.resolve();
+                });
+                promises.push(def);
             });
+            return $.when.apply(undefined, promises).promise();
         },
         elm : function(){
             var video_id = $($(this)[0]).attr('id');
