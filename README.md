@@ -38,7 +38,9 @@ Don't forget to add 'api=1' and 'player_id={id from iframe}' to the embed url.
 This function builds the frame arround the video to create the fadeTo function.
 
 ```javascript
-$('iframe#video_player').crossfader();
+$('iframe#video_player').crossfader().done(function(){
+	console.debug('Lets do some magic here');
+});
 ```
 
 ## FadeTo function
